@@ -31,24 +31,3 @@ async function copy() {
 
 copy();
 
-
-// fs.readdir(copyDir, (err, files) => {
-// 	if (err) throw err;
-// 	if (files) files.forEach(file => {
-// 		fs.rm(path.join(copyDir, file), err => {
-// 			if (err) throw err;
-// 		});
-// 	});
-// });
-
-// fs.readdir(dir, (err, files) => {
-// 	if (err) throw err;
-// 	files.forEach(file => {
-// 		const currentFile = path.join(dir, file);
-// 		const copyFile = path.join(copyDir, file);
-// 		fs.copyFile(currentFile, copyFile, err => {
-// 			if (err) throw err;
-// 		});
-// 	});
-// 	console.log('Files copy done');
-// });
